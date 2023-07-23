@@ -34,7 +34,7 @@ const Carousel = () => {
                         <div className="embla__slide__number"><span>1</span></div>
                         <img
                             className="embla__slide__img"
-                            src="./ski1.jpg"
+                            src="./ski1.webp"
                             alt="Ski"
                         />
                     </div>
@@ -42,7 +42,7 @@ const Carousel = () => {
                         <div className="embla__slide__number"><span>2</span></div>
                         <img
                             className="embla__slide__img"
-                            src="./ski2.jpg"
+                            src="./ski2.webp"
                             alt="Ski"
                         />
                     </div>
@@ -50,13 +50,13 @@ const Carousel = () => {
                         <div className="embla__slide__number"><span>3</span></div>
                         <img
                             className="embla__slide__img"
-                            src="./ski3.jpg"
+                            src="./ski3.webp"
                             alt="Ski"
                         />
                     </div>
                     <div className="embla__slide">
                         <div className="embla__slide__number"><span>4</span></div>
-                        <iframe width="532" height="351" src="https://www.youtube.com/embed/Wrr_UQPNwrY?controls=0"
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Wrr_UQPNwrY?controls=0&loop=1&playlist=Wrr_UQPNwrY"
                                 title="Skitraining" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowFullScreen></iframe>

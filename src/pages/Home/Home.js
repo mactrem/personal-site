@@ -38,11 +38,11 @@ const Home = () => {
                 </a>
                 <p>
                     I'm a Staff Software Engineer and Architect at Rohde & Schwarz living in Germany.
-                    As a lecturer i also teach vector data processing at the faculty of computer science
+                    As a lecturer I also teach vector data processing at the faculty of computer science
                     at the Deggendorf Institute of Technology.
                     My main work focus is on the development of high-performance geospatial applications as well as research
                     in the field of <a href="https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/231/2023/">cloud native geospatial</a>
-                    &nbsp; and <a href="https://github.com/mactrem/cov-tiles">next generation vector file formats</a>. As a passionate athlete i was member of the German junior national ski team, was able to achieve top placings at <a href="https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&seasoncode=&competitorid=74001&type=result&categorycode=&sort=&place=&disciplinecode=&position=6&limit=200">international FIS Ski races</a>,
+                    &nbsp; and <a href="https://github.com/mactrem/cov-tiles">next generation vector file formats</a>. As a passionate athlete I was member of the German junior national ski team, was able to achieve top placings at <a href="https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&seasoncode=&competitorid=74001&type=result&categorycode=&sort=&place=&disciplinecode=&position=6&limit=200">international FIS Ski races</a>,
                     was nominated to play a soccer game in the legendary San Siro Stadium and now chasing <a href="https://www.strava.com/athletes/32030436">Strava segments</a> on my bike or on cross-country skis in the wonderful Bavarian Forest.
                 </p>
             </header>

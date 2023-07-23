@@ -8,6 +8,13 @@ body {
   line-height: 26px;
 }
 
+@media (max-width: 768px) {
+  body {
+    width: 90%; /* Adjust the width for small devices */
+  }
+}
+
+
 img.avatar {
   background-size: 100%;
   display: block;
