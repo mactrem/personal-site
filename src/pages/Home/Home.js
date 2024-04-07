@@ -58,6 +58,7 @@ const Home = () => {
                     <Box sx={{ p: 3 }}>
                         <Typography variant='h6'><b>Recent Talks (Selection):</b></Typography>
                         <ul style={{padding: 0}}>
+                            <li><b>Bayerwald Hackathon 2023</b> (Freyung, Germany): Using WebAssembly and WebGPU to build the next generation of data-intensive applications in the browser (<a href="https://github.com/mactrem/presentations/blob/main/Bayerwald_Hackathon_2023/BayerwaldHackathon.pdf">Slides</a>)</li>
                             <li><b>FOSS4G 2023</b> (Prizren, Kosovo): COMTiles: a case study of a cloud optimized tile archive format
                                 for deploying planet-scale tilesets in the cloud (<a href="https://github.com/mactrem/presentations/blob/main/FOSS4G_2023/FOSS4G_2023_Tremmel.pdf">Slides</a>)</li>
                             <li><b>FOSS4G 2022</b> (Florence, Italy): Using COMTiles to reduce the hosting costs of large map tilesets
