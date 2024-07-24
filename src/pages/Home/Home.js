@@ -40,10 +40,11 @@ const Home = () => {
                     I'm a Staff Software Engineer and Architect at Rohde & Schwarz living in Germany.
                     As a lecturer I also teach vector data processing at the faculty of computer science
                     at the Deggendorf Institute of Technology.
-                    My main work focus is on the development of high-performance geospatial applications as well as research
-                    in the field of <a href="https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/231/2023/">cloud native geospatial</a>
-                    &nbsp; and <a href="https://github.com/mactrem/cov-tiles">next generation vector file formats</a>. As a passionate athlete I was member of the German junior national ski team, was able to achieve top placings at <a href="https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&seasoncode=&competitorid=74001&type=result&categorycode=&sort=&place=&disciplinecode=&position=6&limit=200">international FIS Ski races</a>,
-                    was nominated to play a soccer game in the legendary San Siro Stadium and now chasing <a href="https://www.strava.com/athletes/32030436">Strava segments</a> on my bike or on cross-country skis in the wonderful Bavarian Forest.
+                    My main work focus is on the development of high-performance geospatial applications.
+                    I am also researching the next generation map rendering stack by trying to optimize and innovate on the entire stack,
+                    from efficently providing the <a href="https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/231/2023/">geospatial data in the cloud</a> up to <a href="https://github.com/mactrem/cov-tiles">rendering the data on the GPU</a>.
+                    As a passionate athlete I was member of the German junior national ski team, was able to achieve top placings at <a href="https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&seasoncode=&competitorid=74001&type=result&categorycode=&sort=&place=&disciplinecode=&position=6&limit=200">international FIS Ski races</a>,
+                    was nominated to play a soccer game in the legendary San Siro Stadium and now chasing <a href="https://www.strava.com/athletes/32030436">Strava segments</a> on my bike or on cross-country skis around <a href="https://www.bodenmais.de/en">Bodenmais</a> in the beautiful Bavarian Forest.
                 </p>
             </header>
             <article>
@@ -58,6 +59,9 @@ const Home = () => {
                     <Box sx={{ p: 3 }}>
                         <Typography variant='h6'><b>Recent Talks (Selection):</b></Typography>
                         <ul style={{padding: 0}}>
+                            <li><b>Upcoming: State of the Map 2024</b> (Nairobi, Kenya): MapLibre Tiles: A Next Generation Vector Tiles Format specially designed for OSM data (<a href="https://2024.stateofthemap.org/sessions/T3CXBD/">Abstract</a>)</li>
+                            <li><b>FOSS4G Europe 2024</b> (Tartu, Estonia): MapLibre Tiles: Introducing The Next Generation Vector Tiles Format (<a href="https://github.com/mactrem/presentations/blob/main/FOSS4G_2024_Europe/FOSS4G_2024_Europe.pdf">Slides,</a>
+                                &nbsp;<a href="https://foss4ge.television.ee/stream/2024-07-03-LASTOOLS"> Video</a>)</li>
                             <li><b>Bayerwald Hackathon 2023</b> (Freyung, Germany): Using WebAssembly and WebGPU to build the next generation of data-intensive applications in the browser (<a href="https://github.com/mactrem/presentations/blob/main/Bayerwald_Hackathon_2023/BayerwaldHackathon.pdf">Slides</a>)</li>
                             <li><b>FOSS4G 2023</b> (Prizren, Kosovo): COMTiles: a case study of a cloud optimized tile archive format
                                 for deploying planet-scale tilesets in the cloud (<a href="https://github.com/mactrem/presentations/blob/main/FOSS4G_2023/FOSS4G_2023_Tremmel.pdf">Slides</a>)</li>
@@ -79,8 +83,8 @@ const Home = () => {
                             <li>Cloud Native Geospatial</li>
                             <li>Next Generation Vector File Formats</li>
                             <li>High-Performance Geospatial Applications</li>
-                            <li>(3D) Map Rendering</li>
-                            <li>Big (Spatial) Data Processing</li>
+                            <li>2D and 3D Map Rendering</li>
+                            <li>Big Data Processing</li>
                         </ul>
 
                         <Typography variant='h6'><b>Publications: </b></Typography>
@@ -95,7 +99,7 @@ const Home = () => {
                         <Typography variant='h6'><b>Recent Projects (Selection):</b></Typography>
                         <ul style={{padding: 0}}>
                             <li><b><a href="https://github.com/mactrem/com-tiles">COMTiles</a></b>: the main goal of COMTiles is to significantly reduce access charges and simplify the hosting of large map tilesets at global scale in the cloud</li>
-                            <li><b><a href="https://github.com/mactrem/cov-tiles">COVTiles</a></b>: case study of the next generation of vector tiles by trying to significantly improve the compression ratio and decoding performance</li>
+                            <li><b><a href="https://github.com/mactrem/cov-tiles">MapLibre Tiles</a></b>: case study of the next generation of vector tiles by trying to significantly improve the compression ratio and decoding performance</li>
                         </ul>
                     </Box>
                 )}
