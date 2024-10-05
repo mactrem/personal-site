@@ -59,9 +59,9 @@ const Home = () => {
                     <Box sx={{ p: 3 }}>
                         <Typography variant='h6'><b>Recent Talks (Selection):</b></Typography>
                         <ul style={{padding: 0}}>
-                            <li><b>Upcoming: State of the Map 2024</b> (Nairobi, Kenya): MapLibre Tiles: A Next Generation Vector Tiles Format specially designed for OSM data (<a href="https://2024.stateofthemap.org/sessions/T3CXBD/">Abstract</a>)</li>
+                            <li><b>State of the Map 2024</b> (Nairobi, Kenya): MapLibre Tiles: A Next Generation Vector Tiles Format specially designed for OSM data (<a href="https://github.com/mactrem/presentations/blob/main/SotM_2024/SotM_2024.pdf">Slides</a>)</li>
                             <li><b>FOSS4G Europe 2024</b> (Tartu, Estonia): MapLibre Tiles: Introducing The Next Generation Vector Tiles Format (<a href="https://github.com/mactrem/presentations/blob/main/FOSS4G_2024_Europe/FOSS4G_2024_Europe.pdf">Slides,</a>
-                                &nbsp;<a href="https://foss4ge.television.ee/stream/2024-07-03-LASTOOLS"> Video</a>)</li>
+                                &nbsp;<a href="https://www.youtube.com/watch?v=YHcoAFcsES0"> Video</a>)</li>
                             <li><b>Bayerwald Hackathon 2023</b> (Freyung, Germany): Using WebAssembly and WebGPU to build the next generation of data-intensive applications in the browser (<a href="https://github.com/mactrem/presentations/blob/main/Bayerwald_Hackathon_2023/BayerwaldHackathon.pdf">Slides</a>)</li>
                             <li><b>FOSS4G 2023</b> (Prizren, Kosovo): COMTiles: a case study of a cloud optimized tile archive format
                                 for deploying planet-scale tilesets in the cloud (<a href="https://github.com/mactrem/presentations/blob/main/FOSS4G_2023/FOSS4G_2023_Tremmel.pdf">Slides</a>)</li>
