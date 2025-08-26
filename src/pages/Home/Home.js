@@ -41,7 +41,7 @@ const Home = () => {
                     As a lecturer I also teach vector data processing at the faculty of computer science
                     at the Deggendorf Institute of Technology.
                     My main work focus is on the development of high-performance geospatial applications.
-                    I am also researching the next generation map rendering stack by trying to optimize and innovate on the entire stack,
+                    I am also researching the <a href="https://th-deg.de/Forschung/Tag%20der%20Forschung/2025/TdF2025_07.pdf">next generation map rendering stack</a> by trying to optimize and innovate on the entire stack,
                     from efficently providing the <a href="https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/231/2023/">geospatial data in the cloud</a> up to <a href="https://github.com/mactrem/cov-tiles">rendering the data on the GPU</a>.
                     As a passionate athlete I was member of the German junior national ski team, was able to achieve top placings at <a href="https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&seasoncode=&competitorid=74001&type=result&categorycode=&sort=&place=&disciplinecode=&position=6&limit=200">international FIS Ski races</a>,
                     was nominated to play a soccer game in the legendary San Siro Stadium and now chasing <a href="https://www.strava.com/athletes/32030436">Strava segments</a> on my bike or on cross-country skis around <a href="https://www.bodenmais.de/en">Bodenmais</a> in the beautiful Bavarian Forest.
@@ -59,7 +59,9 @@ const Home = () => {
                     <Box sx={{ p: 3 }}>
                         <Typography variant='h6'><b>Recent Talks (Selection):</b></Typography>
                         <ul style={{padding: 0}}>
-                            <li><b>State of the Map 2024</b> (Nairobi, Kenya): MapLibre Tiles: A Next Generation Vector Tiles Format specially designed for OSM data (<a href="https://github.com/mactrem/presentations/blob/main/SotM_2024/SotM_2024.pdf">Slides</a>)</li>
+                            <li><b>MUC++ 2025</b> (Munich, Germany): Building high-performance web applications with WebAssembly and WebGPU (<a href="https://www.youtube.com/watch?v=TwsS6YJ6Mbw">Video</a>)</li>
+                            <li><b>State of the Map 2024</b> (Nairobi, Kenya): MapLibre Tiles: A Next Generation Vector Tiles Format specially designed for OSM data (<a href="https://github.com/mactrem/presentations/blob/main/SotM_2024/SotM_2024.pdf">Slides,</a>
+                                &nbsp;<a href="https://youtu.be/LZ4DoKh3Xac?si=bkYvJUcHSP3E3Uab&t=25"> Video</a>)</li>
                             <li><b>FOSS4G Europe 2024</b> (Tartu, Estonia): MapLibre Tiles: Introducing The Next Generation Vector Tiles Format (<a href="https://github.com/mactrem/presentations/blob/main/FOSS4G_2024_Europe/FOSS4G_2024_Europe.pdf">Slides,</a>
                                 &nbsp;<a href="https://www.youtube.com/watch?v=YHcoAFcsES0"> Video</a>)</li>
                             <li><b>Bayerwald Hackathon 2023</b> (Freyung, Germany): Using WebAssembly and WebGPU to build the next generation of data-intensive applications in the browser (<a href="https://github.com/mactrem/presentations/blob/main/Bayerwald_Hackathon_2023/BayerwaldHackathon.pdf">Slides</a>)</li>
@@ -89,6 +91,8 @@ const Home = () => {
 
                         <Typography variant='h6'><b>Publications: </b></Typography>
                         <ul style={{padding: 0}}>
+                            <li><b>ACM SIGSPATIAL</b> (forthcoming) (2025): MapLibre Tile: A Next Generation Vector Tile Format (<a href="https://www.arxiv.org/abs/2508.10791">Preprint</a>)</li>
+                            <li><b>Day of Research (Deggendorf Institute of Technology)</b>(2025): Design and prototype implementation of the next generation vector map rendering stack with a special focus on web maps (<a href="https://th-deg.de/Forschung/Tag%20der%20Forschung/2025/TdF2025_07.pdf">Poster</a>)</li>
                             <li><b>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences </b>(2023):  COMTiles: a case study of a cloud optimized tile
                                 archive format for deploying planet-scale tilesets in the cloud (<a href="https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/231/2023/">Paper</a>)</li>
                         </ul>
