@@ -91,7 +91,7 @@ const Home = () => {
 
                         <Typography variant='h6'><b>Publications: </b></Typography>
                         <ul style={{padding: 0}}>
-                            <li><b>ACM SIGSPATIAL</b> (2025): MapLibre Tile: A Next Generation Vector Tile Format (<a href="https://dl.acm.org/doi/10.1145/3748636.3763208">Paper/a>)</li>
+                            <li><b>ACM SIGSPATIAL</b> (2025): MapLibre Tile: A Next Generation Vector Tile Format (<a href="https://dl.acm.org/doi/epdf/10.1145/3748636.3763208">Paper</a>)</li>
                             <li><b>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences </b>(2023):  COMTiles: a case study of a cloud optimized tile
                                 archive format for deploying planet-scale tilesets in the cloud (<a href="https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/231/2023/">Paper</a>)</li>
                         </ul>
