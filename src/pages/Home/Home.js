@@ -82,11 +82,11 @@ const Home = () => {
                     <Box sx={{ p: 3 }}>
                         <Typography variant='h6'><b>Basic Research Interests: </b></Typography>
                         <ul style={{padding: 0}}>
-                            <li>High-performance data systems, with a focus on geospatial applications</li>
-                            <li>Computer graphics, with an emphasis on web-based 2D and 3D map rendering</li>
-                            <li>Cloud-native systems for geospatial applications</li>
-                            <li>Modern data formats, with a focus on efficient geospatial data representation</li>
-                            <li>Scalable processing of large geospatial datasets (Big Data)</li>
+                            <li>High-performance data systems</li>
+                            <li>Computer graphics, with focus on web-based 2D and 3D map rendering</li>
+                            <li>Cloud-native architectures for geospatial applications</li>
+                            <li>Modern data formats for geospatial big data</li>
+                            <li>Scalable processing of large geospatial datasets</li>
                         </ul>
 
                         <Typography variant='h6'><b>Publications: </b></Typography>
