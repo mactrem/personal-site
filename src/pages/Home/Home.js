@@ -82,19 +82,24 @@ const Home = () => {
                     <Box sx={{ p: 3 }}>
                         <Typography variant='h6'><b>Basic Research Interests: </b></Typography>
                         <ul style={{padding: 0}}>
-                            <li>Cloud Native Geospatial</li>
-                            <li>Next Generation Vector File Formats</li>
-                            <li>High-Performance Geospatial Applications</li>
-                            <li>2D and 3D Map Rendering</li>
-                            <li>Big Data Processing</li>
+                            <li>High-performance data systems, with a focus on geospatial applications</li>
+                            <li>Computer graphics, with an emphasis on web-based 2D and 3D map rendering</li>
+                            <li>Cloud-native systems for geospatial applications</li>
+                            <li>Modern data formats, with a focus on efficient geospatial data representation</li>
+                            <li>Scalable processing of large geospatial datasets (Big Data)</li>
                         </ul>
 
                         <Typography variant='h6'><b>Publications: </b></Typography>
                         <ul style={{padding: 0}}>
-                            <li><b>ACM SIGSPATIAL</b> (forthcoming) (2025): MapLibre Tile: A Next Generation Vector Tile Format (<a href="https://www.arxiv.org/abs/2508.10791">Preprint</a>)</li>
-                            <li><b>Day of Research (Deggendorf Institute of Technology)</b>(2025): Design and prototype implementation of the next generation vector map rendering stack with a special focus on web maps (<a href="https://th-deg.de/Forschung/Tag%20der%20Forschung/2025/TdF2025_07.pdf">Poster</a>)</li>
+                            <li><b>ACM SIGSPATIAL</b> (2025): MapLibre Tile: A Next Generation Vector Tile Format (<a href="https://dl.acm.org/doi/10.1145/3748636.3763208">Paper/a>)</li>
                             <li><b>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences </b>(2023):  COMTiles: a case study of a cloud optimized tile
                                 archive format for deploying planet-scale tilesets in the cloud (<a href="https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/231/2023/">Paper</a>)</li>
+                        </ul>
+
+                        <Typography variant='h6'><b>PhD Research: </b></Typography>
+                        <ul style={{padding: 0}}>
+                            <li><b>Proceedings of the Doctoral Colloquium DigiTech</b>(2025): Design and prototype implementation of the next generation vector map rendering stack with a special focus on web maps (<a href="https://opus4.kobv.de/opus4-thd/frontdoor/index/index/docId/177">Paper</a>)</li>
+                            <li><b>Day of Research (Deggendorf Institute of Technology)</b>(2025): Design and prototype implementation of the next generation vector map rendering stack with a special focus on web maps (<a href="https://th-deg.de/Forschung/Tag%20der%20Forschung/2025/TdF2025_07.pdf">Poster</a>)</li>
                         </ul>
                     </Box>
                 )}
@@ -104,6 +109,7 @@ const Home = () => {
                         <ul style={{padding: 0}}>
                             <li><b><a href="https://github.com/mactrem/com-tiles">COMTiles</a></b>: the main goal of COMTiles is to significantly reduce access charges and simplify the hosting of large map tilesets at global scale in the cloud</li>
                             <li><b><a href="https://github.com/mactrem/cov-tiles">MapLibre Tiles</a></b>: case study of the next generation of vector tiles by trying to significantly improve the compression ratio and decoding performance</li>
+                            <li><b><a href="https://github.com/mactrem/presentations/blob/main/MLT/MLT_3D.pdf">Immersive Map View (MLT 3D)</a></b>: case study on immersive map rendering using a 3D extension of MLT</li>
                         </ul>
                     </Box>
                 )}
